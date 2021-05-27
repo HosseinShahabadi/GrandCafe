@@ -1,0 +1,402 @@
+@media screen and (max-width: 1400px) {
+  .container {
+    width: 90%;
+  }
+
+  header nav ul li {
+    margin-left: 5px;
+  }
+
+  #our-story .story-desc h1 {
+    margin-top: 100px;
+  }
+
+  #our-story .story-desc p {
+    width: 90%;
+  }
+
+  .menu .menu-desc p {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #our-story .story-desc h1 {
+    margin-top: 70px;
+  }
+
+  #delight .delight .delight-desc h1 {
+    font-size: 35px;
+    margin-top: 50px;
+  }
+
+  #delight .delight .delight-desc p {
+    font-size: 20px;
+    width: 400px;
+  }
+
+  #delight .delight .delight-img img {
+    width: 190px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header nav ul {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    float: right;
+  }
+
+  .hamburger img {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .responsive-nav {
+    display: block;
+    width: 220px;
+    height: 100vh;
+    position: absolute;
+    right: -220px;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .back-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+  }
+
+  .responsive-nav ul {
+    display: block;
+    width: 100%;
+  }
+
+  .responsive-nav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  header nav .logo {
+    float: left;
+  }
+
+  #our-story {
+    padding: 50px 0;
+  }
+
+  #our-story .story-desc {
+    width: 100%;
+  }
+
+  #our-story .story-desc h1 {
+    margin-top: 30px;
+  }
+
+  #our-story .story-img {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #our-story .story-img img {
+    width: 70%;
+  }
+
+  .sweet {
+    height: 250px;
+  }
+
+  .sweet .sweet-desc p {
+    width: 90%;
+  }
+
+  .menu {
+    padding: 50px 0;
+  }
+
+  .menu .menu-desc {
+    width: 100%;
+  }
+
+  .menu .menu-img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .menu .menu-desc h1 {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  .menu .menu-desc p {
+    font-size: 18px;
+  }
+
+  .menu .menu-img ul li {
+    width: 25%;
+    text-align: center;
+  }
+
+  .menu .menu-img ul li img {
+    height: 200px;
+  }
+
+  #delight {
+    padding-top: 50px;
+  }
+
+  #delight .delight .delight-desc h1 {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  #delight .delight .delight-desc p {
+    font-size: 18px;
+    margin-top: 20px;
+    width: 300px;
+  }
+
+  #delight .delight .delight-img img {
+    width: 150px;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 500px;
+  }
+
+  header .header-desc h1 {
+    font-size: 40px;
+  }
+
+  header .header-desc p {
+    font-size: 21px;
+  }
+
+  .sweet {
+    padding: 50px 0;
+  }
+
+  .sweet .sweet-desc {
+    margin-top: 60px;
+  }
+
+  .sweet .sweet-desc h1 {
+    font-size: 35px;
+  }
+
+  .sweet .sweet-desc p {
+    font-size: 17px;
+  }
+
+  .menu {
+    padding: 30px 0;
+  }
+
+  #delight {
+    padding-bottom: 20px;
+  }
+
+  #delight .delight .delight-desc {
+    width: 100%;
+  }
+
+  #delight .delight .delight-desc h1 {
+    font-size: 40px;
+    margin-top: 0;
+  }
+
+  #delight .delight .delight-desc p {
+    font-size: 20px;
+    margin-top: 10px;
+    width: 95%;
+  }
+
+  #delight .delight .delight-img img {
+    display: none;
+  }
+
+  #footer {
+    padding-top: 30px;
+  }
+
+  #footer .footer .footer-desc p {
+    width: 90%;
+  }
+
+  #footer .footer .contact-us {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header .header-desc h1 {
+    font-size: 30px;
+  }
+
+  header .header-desc p {
+    font-size: 20px;
+  }
+
+  #our-story .story-desc h1 {
+    font-size: 25px;
+  }
+
+  #our-story .story-desc p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .sweet .sweet-desc h1 {
+    font-size: 27px;
+  }
+
+  .sweet .sweet-desc p {
+    font-size: 18px;
+  }
+
+  .menu .menu-img ul li {
+    width: 50%;
+  }
+
+  .menu .menu-img ul li img {
+    height: 150px;
+    width: 90%;
+  }
+
+  .hot {
+    height: 200px;
+  }
+
+  .hot .hot-desc {
+    margin-top: 120px;
+  }
+
+  .hot .hot-desc h1 {
+    font-size: 40px;
+  }
+
+  .hot .hot-desc p {
+    font-size: 20px;
+  }
+
+  #delight .delight .delight-desc h1 {
+    font-size: 30px;
+  }
+
+  #delight .delight .delight-desc p {
+    font-size: 17px;
+  }
+
+  #footer .footer .contact-us .news input {
+    padding: 0px;
+  }
+
+  #footer .footer .contact-us .social ul li {
+    display: inline-block;
+    margin: 0 2px;
+  }
+
+  #footer .copy-right h2 {
+    font-size: 20px;
+  }
+
+  #footer .copy-right p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header .header-desc h1 {
+    font-size: 25px;
+  }
+
+  header .header-desc p {
+    font-size: 15px;
+  }
+
+  .sweet {
+    padding: 20px 0;
+  }
+
+  .sweet .sweet-desc {
+    margin-top: 40px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .sweet .sweet-desc h1 {
+    font-size: 25px;
+  }
+
+  .sweet .sweet-desc p {
+    font-size: 16px;
+  }
+
+  .menu {
+    padding: 20px 0;
+  }
+
+  .menu .menu-desc {
+    width: 100%;
+  }
+
+  .menu .menu-img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .menu .menu-desc h1 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+
+  .menu .menu-desc p {
+    font-size: 17px;
+  }
+
+  .menu .menu-img ul li img {
+    display: none;
+  }
+
+  .hot .hot-desc h1 {
+    font-size: 30px;
+  }
+
+  .hot .hot-desc p {
+    font-size: 16px;
+  }
+
+  #delight .delight .delight-desc h1 {
+    font-size: 25px;
+  }
+
+  #delight .delight .delight-desc p {
+    font-size: 15px;
+  }
+
+  #footer .footer .contact-us .news {
+    width: 100%;
+  }
+
+  #footer .footer .contact-us .social {
+    width: 100%;
+  }
+
+  .social h2 {
+    margin-top: 30px;
+  }
+}

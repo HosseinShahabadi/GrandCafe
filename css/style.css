@@ -1,0 +1,405 @@
+@font-face {
+  font-family: 'Vazir';
+  src: url('../fonts/vazir.eot') format('eot'),
+    url('../fonts/vazir.ttf') format('truetype'),
+    url('../fonts/vazir.woff2') format('woff2'),
+    url('../fonts/vazir.woff') format('woff');
+}
+
+body {
+  font-family: 'vazir';
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  font-family: 'vazir';
+}
+
+.container {
+  width: 1300px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.hamburger {
+  width: 20%;
+  display: none;
+}
+
+.hamburger img {
+  width: 50px;
+}
+
+.responsive-nav {
+  display: none;
+}
+/* ============================== Header =============================== */
+
+header {
+  background-image: url('../img/bakcground-header.jpg');
+  height: 100vh;
+  position: relative;
+}
+
+header nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 10vh;
+  width: 100%;
+}
+
+header nav ul {
+  width: 50%;
+  float: right;
+}
+
+header nav ul li {
+  display: inline-block;
+  height: 100%;
+  margin: 0 10px;
+  line-height: 10vh;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+header nav .logo {
+  width: 50%;
+  height: 100%;
+  float: right;
+  text-align: left;
+}
+
+header nav .logo img {
+  width: 80px;
+  margin-top: 10px;
+}
+
+header .header-desc {
+  color: #fff;
+  position: absolute;
+  top: 35%;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+header .header-desc h1 {
+  font-size: 50px;
+}
+
+header .header-desc p {
+  font-size: 25px;
+}
+
+/* ============================== Story =============================== */
+
+#our-story {
+  width: 100%;
+  overflow: auto;
+  padding: 100px 0;
+}
+
+#our-story .story-desc {
+  width: 50%;
+  height: 100%;
+  float: right;
+  text-align: center;
+}
+
+#our-story .story-desc h1 {
+  font-size: 30px;
+  margin-top: 150px;
+}
+
+#our-story .story-desc p {
+  font-size: 18;
+  line-height: 30px;
+  margin-top: 20px;
+  width: 550px;
+  margin: auto;
+}
+
+#our-story .story-img {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+#our-story .story-img img {
+  width: 100%;
+}
+
+/* ============================== Sweet =============================== */
+
+.sweet {
+  height: 300px;
+  width: 100%;
+  padding: 100px 0;
+  background-image: url(../img/backtwo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.sweet .sweet-desc {
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+}
+
+.sweet .sweet-desc h1 {
+  font-size: 45px;
+}
+
+.sweet .sweet-desc p {
+  font-size: 20px;
+  width: 650px;
+  margin: auto;
+}
+
+/* ============================== Menu =============================== */
+
+.menu {
+  width: 100%;
+  padding: 100px 0;
+  overflow: auto;
+}
+
+.menu .menu-desc {
+  width: 50%;
+  color: #000;
+  float: right;
+  text-align: center;
+}
+
+.menu .menu-desc h1 {
+  margin-top: 150px;
+  font-size: 40px;
+}
+
+.menu .menu-desc p {
+  font-size: 21px;
+  line-height: 30px;
+  width: 550px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.menu .menu-desc a {
+  font-size: 19px;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #b61111;
+}
+
+.menu .menu-img {
+  width: 50%;
+  float: right;
+}
+
+.menu .menu-img ul {
+  width: 100%;
+  list-style: none;
+}
+
+.menu .menu-img ul li {
+  width: 50%;
+  float: right;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.menu .menu-img ul li img {
+  width: 95%;
+  height: 250px;
+}
+
+/* ============================== Hot =============================== */
+
+.hot {
+  background-image: url(../img/hot.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  padding: 100px 0;
+}
+
+.hot .hot-desc {
+  width: 100%;
+  color: #fff;
+  margin-top: 150px;
+  text-align: center;
+  z-index: 1;
+}
+
+.hot .hot-desc h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.hot .hot-desc p {
+  font-size: 30px;
+}
+
+/* ============================== Delight =============================== */
+
+#delight {
+  padding: 100px 0;
+  width: 100%;
+  overflow: auto;
+}
+
+#delight .delight {
+  width: 100%;
+}
+
+#delight .delight .delight-desc {
+  width: 50%;
+  text-align: center;
+  float: right;
+}
+
+#delight .delight .delight-desc h1 {
+  font-size: 40px;
+  margin-top: 70px;
+}
+
+#delight .delight .delight-desc p {
+  font-size: 22px;
+  margin-top: 20px;
+  width: 500px;
+  margin: auto;
+}
+
+#delight .delight .delight-img {
+  width: 50%;
+  float: right;
+  margin-top: 50px;
+}
+
+#delight .delight .delight-img img {
+  width: 220px;
+  height: 350px;
+  float: left;
+}
+
+#delight .delight .delight-img img.leftimg {
+  margin-right: 40px;
+}
+
+/* ============================== Footer =============================== */
+
+#footer {
+  padding-top: 50px;
+  color: #fff;
+  background-color: #141414;
+}
+
+#footer .footer {
+  width: 100%;
+}
+
+#footer .footer .footer-desc {
+  width: 100%;
+  text-align: center;
+}
+
+#footer .footer .footer-desc h2 {
+  margin-bottom: 30px;
+}
+
+#footer .footer .footer-desc p {
+  width: 600px;
+  line-height: 30px;
+  margin: auto;
+}
+
+#footer .footer .contact-us {
+  width: 60%;
+  margin: auto;
+  overflow: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#footer .footer .contact-us .news {
+  width: 50%;
+  float: right;
+}
+
+#footer .footer .contact-us .news input {
+  margin-top: -5px;
+  padding: 5px;
+}
+
+#footer .footer .contact-us .social {
+  width: 50%;
+  float: right;
+}
+
+#footer .footer .contact-us .social ul {
+  list-style: none;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#footer .footer .contact-us .social ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#footer .footer .contact-us .social ul li a {
+  color: #fff;
+}
+
+#footer .footer .contact-us .social ul li a svg {
+  font-size: 25px;
+}
+
+#footer .copy-right {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-color: #333;
+  padding-top: 30px;
+  margin-top: 50px;
+}
+
+#footer .copy-right h2{
+  margin-top: 50px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#footer .copy-right p {
+  font-size: 18px;
+}
