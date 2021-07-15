@@ -54,6 +54,7 @@ input {
 .responsive-nav {
   display: none;
 }
+
 /* ============================== Header =============================== */
 
 header {
@@ -84,24 +85,35 @@ header nav ul li a {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+  color: #57a283;
 }
 
 header nav .logo {
   width: 50%;
   height: 100%;
   float: right;
-  text-align: left;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 header nav .logo img {
-  width: 80px;
-  margin-top: 10px;
+  height: 80%;
+  cursor: pointer;
 }
 
 header .header-desc {
   color: #fff;
   position: absolute;
-  top: 35%;
+  top: 40%;
   right: 0;
   left: 0;
   text-align: center;
@@ -113,6 +125,7 @@ header .header-desc h1 {
 
 header .header-desc p {
   font-size: 25px;
+  margin-top: 30px;
 }
 
 /* ============================== Story =============================== */
@@ -132,14 +145,13 @@ header .header-desc p {
 
 #our-story .story-desc h1 {
   font-size: 30px;
-  margin-top: 150px;
+  margin: 150px 0 30px;
 }
 
 #our-story .story-desc p {
-  font-size: 18;
+  font-size: 18px;
   line-height: 30px;
-  margin-top: 20px;
-  width: 550px;
+  width: 540px;
   margin: auto;
 }
 
@@ -158,7 +170,7 @@ header .header-desc p {
 .sweet {
   height: 300px;
   width: 100%;
-  padding: 100px 0;
+  padding: 0 0 120px;
   background-image: url(../img/backtwo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -169,16 +181,17 @@ header .header-desc p {
 .sweet .sweet-desc {
   text-align: center;
   color: #fff;
-  margin-top: 100px;
 }
 
 .sweet .sweet-desc h1 {
   font-size: 45px;
+  margin: 100px 0 60px;
 }
 
 .sweet .sweet-desc p {
   font-size: 20px;
   width: 650px;
+  line-height: 30px;
   margin: auto;
 }
 
@@ -198,7 +211,7 @@ header .header-desc p {
 }
 
 .menu .menu-desc h1 {
-  margin-top: 150px;
+  margin: 150px 0 30px;
   font-size: 40px;
 }
 
@@ -215,6 +228,15 @@ header .header-desc p {
   color: #000;
   text-decoration: none;
   border-bottom: 1px solid #b61111;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.menu .menu-desc a:hover {
+  border-bottom: 1px solid #445d71;
 }
 
 .menu .menu-img {
@@ -262,7 +284,7 @@ header .header-desc p {
 
 .hot .hot-desc h1 {
   font-size: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .hot .hot-desc p {
@@ -289,12 +311,12 @@ header .header-desc p {
 
 #delight .delight .delight-desc h1 {
   font-size: 40px;
-  margin-top: 70px;
+  margin: 50px 0 40px;
 }
 
 #delight .delight .delight-desc p {
   font-size: 22px;
-  margin-top: 20px;
+  line-height: 30px;
   width: 500px;
   margin: auto;
 }
@@ -302,7 +324,6 @@ header .header-desc p {
 #delight .delight .delight-img {
   width: 50%;
   float: right;
-  margin-top: 50px;
 }
 
 #delight .delight .delight-img img {
@@ -334,10 +355,12 @@ header .header-desc p {
 
 #footer .footer .footer-desc h2 {
   margin-bottom: 30px;
+  font-size: 30px;
 }
 
 #footer .footer .footer-desc p {
-  width: 600px;
+  font-size: 18px;
+  width: 620px;
   line-height: 30px;
   margin: auto;
 }
@@ -356,7 +379,7 @@ header .header-desc p {
 }
 
 #footer .footer .contact-us .news input {
-  margin-top: -5px;
+  margin: 7px 0;
   padding: 5px;
 }
 
@@ -368,7 +391,7 @@ header .header-desc p {
 #footer .footer .contact-us .social ul {
   list-style: none;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 13px;
 }
 
 #footer .footer .contact-us .social ul li {
@@ -382,6 +405,15 @@ header .header-desc p {
 
 #footer .footer .contact-us .social ul li a svg {
   font-size: 25px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+#footer .footer .contact-us .social ul li a svg:hover {
+  color: #57a283;
 }
 
 #footer .copy-right {
@@ -395,8 +427,8 @@ header .header-desc p {
 
 #footer .copy-right h2{
   margin-top: 50px;
-  font-size: 25px;
-  margin-bottom: 20px;
+  font-size: 23px;
+  margin-bottom: 23px;
   color: #fff;
 }
 
